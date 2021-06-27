@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOG IN</title>
+    
+    <link rel="stylesheet" href="CSS/login.css">
+
+    
+</head>
+<body>
+
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      
+      <div class="navbar-nav ml-auto">
+        <a class="nav-link" href="index.html">HOME</a>
+      </div>
+    </div>
+  </nav>
+  
+  
+  <div class="container-fluid bg ">
+    <div class="row justify-content-center">
+      
+      <div class="col-12 col-sm-6 col-md-3">
+      
+
+        <form class="formClass"  onsubmit=" return Validation();">
+          <h3 style="text-align: center;">Log In</h3>
+          <br>
+          <div class="form-group">
+            <input type="text" class="form-control"  id="username"  placeholder="Username">
+            <label  id="error1"></label>
+          </div>
+          <div class="form-group">
+             <input type="password" class="form-control" id="pwd" placeholder="Password">
+             <label id="error2"></label>
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Remember me</label>
+          </div>
+          <!-- <button id="myButton" class="float-left submit-button" >Home</button> -->
+          <button id="logIn" type="submit" class="btn btn-success btn-block ">Log In</button>
+          <div class="myText">
+            
+            
+          <h1> </h1>
+          <a href="forgottenpassword.html">Forgotten password?</a>
+          <h1> </h1>
+          <a href="signup.html">Don't have an account?</a>
+          
+          </div>
+        </form> 
+      </div>
+    </div>
+</div>
+
+
+
+<div style="text-align: center;">
+  <br>
+  <a href="https://github.com/rithusnair99" target="_blank">© 2021 Copyright: Rithu S Nair</a>
+  <br>
+  <br>
+</div>
+
+
+ <script src="JS/login.js">
+ </script>
